@@ -1,17 +1,30 @@
 {
-  "name": "expo-multiple-imagepicker",
-  "version": "1.0.6",
-  "description": "multiple image selecting package for expo",
-  "homepage": "https://github.com/prancky/expo-multiple-imagepicker",
+  "name": "expo-images",
+  "version": "0.0.0-development",
+  "description": "Select multiple images with expo's Image Picker",
+  "homepage": "https://github.com/gaithoben/expo-multiple-imagepicker",
   "main": "src/index.js",
   "peerDependencies": {
     "react-native": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "git-cz",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
-  "author": "sharmal <prancasiousp@gmail.com>",
+  "author": "gaithoben <gaithoben@gmail.com>",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaithoben/expo-multiple-imagepicker.git"
+  }
 }
